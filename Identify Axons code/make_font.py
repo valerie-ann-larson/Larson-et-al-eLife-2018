@@ -7,8 +7,8 @@ def foo2():
     fig = mpl.figure(figsize=(1,2))
     for i in range(128):
         ax = mpl.axes([0, 0, 1, 1])
-        #mpl.text(0, 0.20, chr(i), size=120, family='monospace') 
-        mpl.text(0, 0.20, chr(i), size=120, family='sans-serif') 
+        mpl.text(0, 0.20, chr(i), size=120, family='monospace') 
+        #mpl.text(0, 0.20, chr(i), size=120, family='sans-serif') 
         ax.set_xticks([])
         ax.set_yticks([])
         ax.set_frame_on(False)

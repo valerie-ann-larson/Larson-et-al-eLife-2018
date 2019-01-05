@@ -1,7 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as mpl
 import scipy.misc
-import pyfits
 import os
 
 def foo2():
@@ -29,13 +28,11 @@ def foo3():
         #font[:,:,i] = 255 - image[:,0:150,0]
 
     print font.shape
-    pyfits.writeto('font_240_120_128.fits', font, clobber=True)
+    np.save('font_240_120_128.npy', font, allow_pickle=False)
 
 
 def load_font(width=None):
-    #home = os.environ['HOME']
-    font = pyfits.getdata('font_240_120_128.fits')
-    #font = pyfits.getdata(os.path.join(home,'pylib/font_240_150_128.fits'))
+    font = np.load('font_240_120_128.npy', allow_pickle=False)
     #print font.shape
 
     if width != None:

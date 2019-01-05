@@ -5,7 +5,7 @@ import os.path
 import numpy as np
 import matplotlib.pyplot as mpl
 import scipy.misc
-from PIL import Image
+# from PIL import Image
 import skimage
 import skimage.segmentation
 from skimage import feature

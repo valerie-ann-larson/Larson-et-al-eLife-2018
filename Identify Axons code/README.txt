@@ -1,6 +1,6 @@
 README for Identify_Axons code
 
-This code is designed to work with Anaconda (Python 2.7 version). The PyFits package must also be installed (http://www.stsci.edu/institute/software_hardware/pyfits/Download). 
+This code is designed to work with Anaconda (Python 2.7 version). The PyFits package is no longer required.
 
 Put original files and threshold files in the input_files directory (must be in .tif format). Threshold files should be named '[Original File Name]_threshold.tif'. Cartoon example files are included here.
 

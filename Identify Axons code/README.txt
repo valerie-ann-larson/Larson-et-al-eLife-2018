@@ -4,7 +4,7 @@ This code is designed to work with Anaconda (Python 2.7 version). The PyFits pac
 
 Put original files and threshold files in the input_files directory (must be in .tif format). Threshold files should be named '[Original File Name]_threshold.tif'. Cartoon example files are included here.
 
-make_font.py and font_240_120_128.fits are necessary for the code to run, but do not need to be opened or run independently by the user.
+make_font.py and font_240_120_128.npy are necessary for the code to run, but do not need to be opened or run independently by the user.
 
 To run the code, run Identify_Axons.py
 
